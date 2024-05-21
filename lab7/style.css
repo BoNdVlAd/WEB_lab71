@@ -1,0 +1,87 @@
+
+.gallery {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50px;
+  gap: 20px;
+}
+
+
+.gallery-image {
+  width: 25rem;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.modal__close,
+.modal__prev,
+.modal__next {
+    position: absolute;
+    background: none;
+    border: none;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.modal__close {
+    top: 10px;
+    right: 10px;
+}
+
+.modal__prev {
+    left: 10px;
+    bottom: 10px;
+}
+
+.modal__next {
+    right: 10px;
+    bottom: 10px;
+}
+
+
+.lightbox-arrow{
+  height: 200px;
+  font-size: 100px;
+  background-color: transparent;
+  color: #6b6b6b;
+  cursor: pointer;
+  border: none;
+}
+
+.lightbox-arrow:hover{
+  color: #FFF;
+}
+
+.lightbox-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lightbox-index{
+  color: #FFF;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 40px;
+
+}
+.lightbox-close{
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 40px;
+  background-color: transparent;
+  border: none;
+  color: #6B6B6B;
+  cursor: pointer;
+}
+
+.lightbox-close:hover{
+  color: #FFF;
+}
